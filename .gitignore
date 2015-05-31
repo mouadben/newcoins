@@ -1,0 +1,13 @@
+.buildpath
+.project
+.settings
+.externalToolBuilders
+/.idea
+/app/etc/local.xml
+/app/etc/local.xml.phpunit
+/media
+/var
+/php_error.log
+/nbproject/
+*~
+
