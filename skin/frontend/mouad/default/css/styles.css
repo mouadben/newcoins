@@ -3183,7 +3183,10 @@ body {
  * ============================================ */
 .header-language-background {
   padding: 10px;
-  background-color: #A68572;
+    background: #2f2f2f none repeat scroll 0 0;
+    box-shadow: 0 0.32rem 0.32rem 0 rgba(0, 0, 0, 0.8);
+    height: 7rem;
+    overflow: hidden;
   text-transform: uppercase;
 }
 .header-language-background .header-language-container {
@@ -3246,6 +3249,7 @@ body {
   min-height: 44px;
   text-align: center;
   padding: 10px;
+    float: left;
 }
 .logo img {
   max-width: 100%;
