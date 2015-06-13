@@ -3184,10 +3184,8 @@ body {
 .header-language-background {
   padding: 10px;
     background: #2f2f2f none repeat scroll 0 0;
-    box-shadow: 0 0.32rem 0.32rem 0 rgba(0, 0, 0, 0.8);
-    height: 7rem;
     overflow: hidden;
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 .header-language-background .header-language-container {
   max-width: 1200px;
@@ -3248,8 +3246,7 @@ body {
   min-width: 100px;
   min-height: 44px;
   text-align: center;
-  padding: 10px;
-    float: left;
+  margin: 0 0 0 100px;
 }
 .logo img {
   max-width: 100%;
@@ -3268,7 +3265,7 @@ body {
 @media only screen and (min-width: 771px) {
   .logo {
     max-width: 300px;
-    min-height: 90px;
+    min-height: 50px;
   }
   .logo .small {
     display: none;
@@ -3662,11 +3659,12 @@ a.skip-link {
   #header-search {
     display: block;
     position: absolute;
-    top: 55px;
+    top: 40px;
     right: 0;
     width: 25%;
     height: 50px;
     padding: 0;
+
   }
 }
 /* ============================================ *
